@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Header with Inter Font -->
-  <img src="./assets/header.svg" alt="Hi there, I'm Sandew 👋" width="620" />
+  <img src="./assets/header.svg" alt="Hi there, I'm Sandew " width="620" />
 
   <hr style="border: 0; height: 1px; background: #21262d; margin: 24px 0 28px 0;" />
 
