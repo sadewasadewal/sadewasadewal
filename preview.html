@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile README Preview - Sandew</title>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #010409;
+      color: #c9d1d9;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 980px;
+    }
+
+    /* GitHub File Header Bar */
+    .github-card {
+      background-color: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .github-header {
+      background-color: #161b22;
+      border-bottom: 1px solid #30363d;
+      padding: 12px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      color: #8b949e;
+    }
+
+    .github-header .repo-path {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-weight: 500;
+    }
+
+    .github-header .repo-path strong {
+      color: #f0f6fc;
+      font-weight: 600;
+    }
+
+    .edit-icon {
+      color: #8b949e;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    .edit-icon:hover {
+      color: #58a6ff;
+    }
+
+    /* README Rendered View */
+    .readme-body {
+      padding: 48px 32px 56px 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .divider {
+      width: 100%;
+      max-width: 880px;
+      height: 1px;
+      background-color: #21262d;
+      margin: 20px 0 28px 0;
+      border: none;
+    }
+
+    .snake-wrapper {
+      width: 100%;
+      max-width: 880px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 36px;
+      overflow-x: auto;
+    }
+
+    .snake-wrapper img {
+      width: 100%;
+      max-width: 880px;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .skills-wrapper {
+      margin-bottom: 32px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .skills-wrapper img {
+      height: 48px;
+      transition: transform 0.2s ease;
+    }
+
+    .skills-wrapper img:hover {
+      transform: translateY(-2px);
+    }
+
+    .linkedin-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    .linkedin-wrapper img {
+      height: 38px;
+      border-radius: 6px;
+      box-shadow: 0 4px 14px rgba(0, 119, 181, 0.3);
+      transition: all 0.2s ease;
+    }
+
+    .linkedin-wrapper img:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 119, 181, 0.45);
+    }
+
+    /* Guide & Instructions Section */
+    .guide-card {
+      margin-top: 36px;
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 28px;
+    }
+
+    .guide-card h2 {
+      font-size: 20px;
+      color: #f0f6fc;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .steps-list {
+      list-style-position: inside;
+      line-height: 1.8;
+      color: #8b949e;
+      font-size: 15px;
+    }
+
+    .steps-list li strong {
+      color: #f0f6fc;
+    }
+
+    .code-badge {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 2px 8px;
+      color: #79c0ff;
+      font-family: ui-monospace, SFMono-Regular, monospace;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- GitHub Simulated Container -->
+    <div class="github-card">
+      <div class="github-header">
+        <div class="repo-path">
+          sadewasadewal / <strong>README.md</strong>
+        </div>
+        <div class="edit-icon" title="Edit on GitHub">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25a1.75 1.75 0 0 1 .445-.758l8.61-8.61Zm1.414 1.06a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354l-1.086-1.086ZM11.189 6.25 9.75 4.81 3.296 11.264l-.54 1.89 1.89-.54L11.189 6.25Z"></path>
+          </svg>
+        </div>
+      </div>
+
+      <!-- README Content -->
+      <div class="readme-body">
+        <!-- 1. Header (Inter Font) -->
+        <img src="assets/header.svg" alt="Hi there, I'm Sandew 👋" style="max-width: 100%; height: auto;" />
+
+        <hr class="divider" />
+
+        <!-- 2. Snake Contribution Animation -->
+        <div class="snake-wrapper">
+          <img src="assets/github-snake-dark.svg" alt="Contribution Snake Animation" />
+        </div>
+
+        <!-- 3. Tech Stack Icons -->
+        <div class="skills-wrapper">
+          <img src="https://skillicons.dev/icons?i=linux,python,aws,git,github,docker,bash,cpp,swift&theme=dark" alt="Skills: Linux, Python, AWS, Git, GitHub, Docker, Bash, C++, Swift" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Setup Guide -->
+    <div class="guide-card">
+      <h2>🚀 Setup Checklist for your GitHub Profile</h2>
+      <ol class="steps-list">
+        <li>Create a public repository named exactly <span class="code-badge">sadewasadewal</span> on GitHub.</li>
+        <li>Copy or push all files (<span class="code-badge">README.md</span>, <span class="code-badge">assets/</span>, and <span class="code-badge">.github/</span>) to that repository.</li>
+        <li>Enable workflow write permissions: Go to <strong>Settings</strong> &gt; <strong>Actions</strong> &gt; <strong>General</strong> &gt; <strong>Workflow permissions</strong> and select <strong>"Read and write permissions"</strong>.</li>
+        <li>Trigger the snake workflow: Under the <strong>Actions</strong> tab, click <strong>"Generate Contribution Snake"</strong> &gt; <strong>"Run workflow"</strong> to customize the grid to your live contributions!</li>
+      </ol>
+    </div>
+  </div>
+
+</body>
+</html>

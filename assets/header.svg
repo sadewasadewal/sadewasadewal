@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" width="100%" height="70" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap');
+      
+      .greeting-text {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 35px;
+        font-weight: 500;
+        fill: #39d353;
+        letter-spacing: -0.01em;
+        dominant-baseline: central;
+        text-anchor: middle;
+      }
+      
+      .wave-hand {
+        display: inline-block;
+        transform-origin: 70% 70%;
+        animation: wave 2.2s infinite ease-in-out;
+      }
+
+      @keyframes wave {
+        0% { transform: rotate(0deg); }
+        10% { transform: rotate(14deg); }
+        20% { transform: rotate(-8deg); }
+        30% { transform: rotate(14deg); }
+        40% { transform: rotate(-4deg); }
+        50% { transform: rotate(10deg); }
+        60% { transform: rotate(0deg); }
+        100% { transform: rotate(0deg); }
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(450, 35)">
+    <text class="greeting-text">
+      Hi there, I'm Sandew <tspan class="wave-hand">👋</tspan>
+    </text>
+  </g>
+</svg>
