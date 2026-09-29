@@ -4,10 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GitHub Profile README Preview - Sandew</title>
-  <!-- Google Fonts: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     * {
       box-sizing: border-box;
@@ -23,7 +22,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 40px 20px;
+      padding: 48px 20px;
     }
 
     .container {
@@ -37,7 +36,7 @@
       border: 1px solid #30363d;
       border-radius: 6px;
       overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.45);
     }
 
     .github-header {
@@ -73,43 +72,63 @@
 
     /* README Rendered View */
     .readme-body {
-      padding: 32px 32px 48px 32px;
-      line-height: 1.6;
-      font-size: 16px;
+      padding: 40px 36px 48px 36px;
+      line-height: 1.68;
+      font-size: 15.5px;
     }
 
     .readme-title {
       font-size: 32px;
       font-weight: 600;
       color: #f0f6fc;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 8px;
+      margin-bottom: 16px;
+      letter-spacing: -0.015em;
+    }
+
+    .bio-lead {
+      color: #e6edf3;
+      margin-bottom: 12px;
+      font-size: 16px;
+    }
+
+    .bio-sub {
+      color: #8b949e;
+      margin-bottom: 24px;
     }
 
     .divider {
       width: 100%;
       height: 1px;
       background-color: #21262d;
-      margin: 16px 0 24px 0;
+      margin: 24px 0;
       border: none;
     }
 
-    .intro-text {
-      margin-bottom: 20px;
-      color: #e6edf3;
-      line-height: 1.7;
+    .section-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #f0f6fc;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
 
-    .follow-callout {
-      margin-bottom: 28px;
-      color: #e6edf3;
+    .stack-list {
+      list-style-type: disc;
+      padding-left: 20px;
+      color: #c9d1d9;
+      line-height: 1.85;
+      margin-bottom: 24px;
+    }
+
+    .stack-list strong {
+      color: #f0f6fc;
     }
 
     .snake-wrapper {
       width: 100%;
-      margin: 24px 0 32px 0;
+      margin: 16px 0 24px 0;
       overflow-x: auto;
     }
 
@@ -121,32 +140,24 @@
       display: block;
     }
 
-    .closing-text {
-      margin-bottom: 18px;
-      color: #e6edf3;
-    }
-
-    .ps-text {
-      margin-bottom: 24px;
-      color: #e6edf3;
-      line-height: 1.65;
-    }
-
-    .links-row {
+    .social-links {
       display: flex;
-      gap: 16px;
+      gap: 12px;
       align-items: center;
-      margin-top: 8px;
+      color: #8b949e;
+      font-size: 15px;
     }
 
     a {
-      color: #4493f8;
-      text-decoration: underline;
-      text-underline-offset: 3px;
+      color: #58a6ff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.15s ease;
     }
 
     a:hover {
-      color: #58a6ff;
+      text-decoration: underline;
+      color: #79c0ff;
     }
 
     /* Guide & Instructions Section */
@@ -159,9 +170,9 @@
     }
 
     .guide-card h2 {
-      font-size: 18px;
+      font-size: 17px;
       color: #f0f6fc;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
       display: flex;
       align-items: center;
       gap: 8px;
@@ -192,7 +203,6 @@
 <body>
 
   <div class="container">
-    <!-- GitHub Simulated Container -->
     <div class="github-card">
       <div class="github-header">
         <div class="repo-path">
@@ -207,52 +217,52 @@
 
       <!-- README Content -->
       <div class="readme-body">
-        <h1 class="readme-title">👋 Hello!</h1>
+        <h1 class="readme-title">Hello</h1>
+
+        <div class="bio-lead">
+          I'm <strong>Sandew Hiruditha</strong>, a software developer crafting native applications with <strong>Swift & Xcode</strong> and building on <strong>Cloud Platforms</strong>.
+        </div>
+
+        <div class="bio-sub">
+          Currently pursuing Computer Science, with a passion for the Apple developer ecosystem, clean system design, and modern cloud infrastructure.
+        </div>
 
         <hr class="divider" />
 
-        <div class="intro-text">
-          I'm a <strong>Computer Science undergraduate</strong> 🎓, <strong>Python developer</strong> 🐍 and a <strong>Linux</strong> lover 🐧<br />
-          I created this GitHub profile to gain experience and do what I love.<br />
-          I'll be happy to receive any <strong>feedback</strong> or <strong>code reviews</strong> that can help me improve 💪
-        </div>
+        <div class="section-title">✦ Focus & Stack</div>
+        <ul class="stack-list">
+          <li><strong>Native & Apple Ecosystem:</strong> Swift, SwiftUI, Xcode</li>
+          <li><strong>Cloud & Systems:</strong> AWS, Docker, Linux, Bash</li>
+          <li><strong>Languages & Core:</strong> Python, C++, Git</li>
+        </ul>
 
-        <div class="follow-callout">
-          ⭐ Feel free to <strong>follow me</strong> - I'd really appreciate your support!
-        </div>
+        <hr class="divider" />
 
-        <!-- Snake Contribution Animation -->
+        <div class="section-title">✦ Activity</div>
         <div class="snake-wrapper">
           <img src="assets/github-snake-dark.svg" alt="GitHub Contribution Snake" />
         </div>
 
-        <div class="closing-text">
-          Thank you for visiting my page ❤️
-        </div>
+        <hr class="divider" />
 
-        <div class="ps-text">
-          P.S.: I <a href="https://github.com/sadewasadewal" target="_blank">followed</a> your profile because your project caught my interest.<br />
-          I really appreciate your work - it helps me discover something new. Thanks for that too.
-        </div>
-
-        <div class="links-row">
+        <div class="social-links">
           <a href="https://www.linkedin.com/in/sandew-hiruditha-b461b329a" target="_blank">LinkedIn</a>
+          <span>·</span>
           <a href="https://github.com/sadewasadewal" target="_blank">GitHub</a>
         </div>
       </div>
     </div>
 
-    <!-- Quick Setup Guide -->
+    <!-- Quick Status Guide -->
     <div class="guide-card">
-      <h2>🚀 Setup Checklist for your GitHub Profile</h2>
+      <h2>🚀 Profile Overview</h2>
       <ol class="steps-list">
-        <li>Make sure this repository is named exactly <span class="code-badge">sadewasadewal</span> on GitHub.</li>
-        <li>Commit and push the updated <span class="code-badge">README.md</span> to <span class="code-badge">main</span>.</li>
-        <li>The snake animation in <span class="code-badge">assets/github-snake-dark.svg</span> will be automatically refreshed by GitHub Actions!</li>
+        <li><strong>Minimal & Unique:</strong> No boilerplate or copied phrases, focused on your identity and technical interests.</li>
+        <li><strong>Keywords Highlighted:</strong> Direct emphasis on <strong>Swift / Xcode</strong> and <strong>Cloud Platforms</strong>.</li>
+        <li><strong>Clean Headline:</strong> Clean <span class="code-badge"># Hello</span> with no emoji.</li>
       </ol>
     </div>
   </div>
 
 </body>
 </html>
-
