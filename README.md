@@ -1,16 +1,17 @@
 # Hello
 
-I'm **Sandew**, a software developer crafting native applications with **Swift & Xcode** and building on **Cloud Platforms**.
+I shape digital artifacts where latent infrastructure converges with visceral interaction.
 
-Currently pursuing Computer Science, with a passion for the Apple developer ecosystem, clean system design, and modern cloud infrastructure.
+
+A Computer Science graduate dedicated to sculpting deeply satisfying, fluid user interfaces in **Swift & Xcode**, anchored by the unseen resilience of **Cloud Platforms**. Driven by an obsession with micro-rhythms, tactile precision, and architectures that operate silently beneath the surface.
 
 ---
 
-### ✦ Focus & Stack
+### ✦ Focus & Discipline
 
-- **Native & Apple Ecosystem:** Swift, SwiftUI, Xcode
-- **Cloud & Systems:** AWS, Docker, Linux, Bash
-- **Languages & Core:** Python, C++, Git
+- **Interface Craft & Motion:** Swift · Xcode · Fluid UI Dynamics · Tactile Precision
+- **Cloud Fabrics & Systems:** AWS · Docker · Linux · Cloud Architecture
+- **Core Tooling:** Python · Bash · Git
 
 ---
 
@@ -19,7 +20,7 @@ Currently pursuing Computer Science, with a passion for the Apple developer ecos
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="./assets/github-snake-dark.svg" width="100%" />
+  <img alt="Contribution Grid" src="./assets/github-snake-dark.svg" width="100%" />
 </picture>
 
 ---
