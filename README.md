@@ -2,7 +2,6 @@
 
 I shape digital artifacts where latent infrastructure converges with visceral interaction.
 
-
 A Computer Science graduate dedicated to sculpting deeply satisfying, fluid user interfaces in **Swift & Xcode**, anchored by the unseen resilience of **Cloud Platforms**. Driven by an obsession with micro-rhythms, tactile precision, and architectures that operate silently beneath the surface.
 
 ---
