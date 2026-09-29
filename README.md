@@ -1,22 +1,24 @@
-<div align="center">
+# 👋 Hello!
 
-  <!-- Header with Inter Font -->
-  <img src="./assets/header.svg" alt="Hi there, I'm Sandew " width="620" />
+---
 
-  <hr style="border: 0; height: 1px; background: #21262d; margin: 24px 0 28px 0;" />
 
-  <!-- GitHub Contribution Snake Game -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
-    <img alt="GitHub Contribution Snake" src="./assets/github-snake-dark.svg" width="880" />
-  </picture>
+I'm a **Computer Science undergraduate** 🎓, **Python developer** 🐍 and a **Linux** lover 🐧  
+I created this GitHub profile to gain experience and do what I love.  
+I'll be happy to receive any **feedback** or **code reviews** that can help me improve 💪  
 
-  <br/><br/>
+⭐ Feel free to **follow me** - I'd really appreciate your support!
 
-  <!-- Tech Stack Icons -->
-  <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=linux,python,aws,git,github,docker,bash,cpp,swift&theme=dark" alt="Tech Stack" />
-  </a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+  <img alt="GitHub Contribution Snake" src="./assets/github-snake-dark.svg" />
+</picture>
 
-</div>
+Thank you for visiting my page ❤️
+
+P.S.: I [followed](https://github.com/sadewasadewal) your profile because your project caught my interest.  
+I really appreciate your work - it helps me discover something new. Thanks for that too.
+
+[LinkedIn](https://www.linkedin.com/in/sandew-hiruditha-b461b329a) &nbsp; [GitHub](https://github.com/sadewasadewal)
+
