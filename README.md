@@ -1,6 +1,6 @@
 # Hello
 
-I'm **Sandew Hiruditha**, a software developer crafting native applications with **Swift & Xcode** and building on **Cloud Platforms**.
+I'm **Sandew**, a software developer crafting native applications with **Swift & Xcode** and building on **Cloud Platforms**.
 
 Currently pursuing Computer Science, with a passion for the Apple developer ecosystem, clean system design, and modern cloud infrastructure.
 
